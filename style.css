@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "DIN Pro";
+  src: url("./fonts/DINPro-Black.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "DIN Pro";
+  font-size: 14px;
+}
+
+a {
+  color: inherit;
+}
+
+ol {
+  list-style: none;
+}
+
+:root {
+  --grey-color: #323333;
+  --pink-color: #e82e8a;
+  --grey-font-color: #acacac;
+  --width-description-conteiner: 943px;
+}
+
+header,
+footer {
+  background-color: var(--grey-color);
+  color: white;
+}
+
+.container {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1230px;
+}
+
+.flex-inline {
+  display: flex;
+  align-items: center;
+  padding: 3px 0px;
+}
+
+header > .container > img {
+  width: 77px;
+  height: fit-content;
+}
+
+header > .container > .menu {
+  flex-grow: 1;
+  padding: 0px 40px;
+}
+
+.menu > ol {
+  display: flex;
+}
+
+.get-call {
+  background-color: var(--pink-color);
+  padding: 10px 20px;
+  border-radius: 16px;
+  height: fit-content;
+  text-transform: uppercase;
+  max-width: 11em;
+}
+
+.menu-up,
+.menu-down {
+  padding: 15px 0px;
+}
+
+.menu-up {
+  color: var(--grey-font-color);
+  display: flex;
+  gap: 60px;
+}
+
+.menu-down {
+  text-transform: uppercase;
+  display: flex;
+  gap: 40px;
+  border-top: white 1px solid;
+}
+
+.card-event {
+  margin-bottom: 10px;
+}
+
+.back1 {
+  background-image: url("https://rostov.alexfitness.ru/assets/images/clubs/rostov/levencovka/tz_1.jpg");
+  height: 872px;
+}
+
+.back2 {
+  background-image: url("https://rostov.alexfitness.ru/assets/images/clubs/rostov/levencovka/main_1.jpg");
+  height: 872px;
+}
+
+.black-back {
+  z-index: 1;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.description > p {
+  font-size: 15px;
+  width: var(--width-description-conteiner);
+  margin-bottom: 10px;
+}
+.btn {
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border: 1px white solid;
+  border-radius: 16px;
+  width: fit-content;
+  margin: 10px 20px 20px 0px;
+}
+
+.position-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+}
+
+.btn-line {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: end;
+  width: var(--width-description-conteiner);
+}
+
+.grey-title {
+  text-align: center;
+  color: var(--grey-color);
+  margin: 25px 0px 15px;
+}
+.row {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+h4 {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 1.2631;
+  margin-top: 0;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding: 20px 40px;
+}
+.col-xs {
+  width: 33%;
+}
+.col-md {
+  padding: 20px;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+footer .alex-online {
+  width: 77px;
+  height: 48.85px;
+}
